@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar starts here */
+header{
+    background-color: #F0FFF0;
+}
+nav img{
+    height: 167px;
+    width: 167px;
+    padding: 3px;
+}
+nav ul li{
+    margin-left: 10px;
+}
+nav ul li button{
+    background-color: #21B573;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid #21B573;
+}
+/* navbar ends here */
+/* frontpage starts here */
+.frontpage .right-side{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.frontpage .right-side span{
+    color: #F5A06B;
+}
+.frontpage .right-side h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+.frontpage .right-side .text2 span{
+    color: #21B573;
+}
+.frontpage .right-side button{
+    background-color: #21B573;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid #21B573;
+}
+.frontpage .right-side button:hover{
+    color: #21B573;
+    background-color: white;
+}
+/* frontpage ends here  */
+/* card starts here  */
+.skills .card{
+    height: 240px;
+    width: 215px;
+    background-color: #F0FFF0;
+    text-align: center;
+    margin-top: 60px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.skills .card:hover{
+    box-shadow: 5px 5px 20px gainsboro;
+}
+.skills .card img{
+    width: 83px;
+    margin: auto;
+    padding-top: 30px;
+}
+.skills .card h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #413960;
+}
+.skills .card-on{
+    background-color: white;
+    box-shadow: 5px 5px 20px gainsboro;
+}
+/* Card ends here  */
+/* card2 starts here  */
+.card2 .texts h1{
+    color: #413960;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.card2 .card{
+   box-shadow: 5px 5px 15px gainsboro;
+   height: 450px;
+   width: 345px;
+   margin-top: 15px;
+}
+.card2 .card img{
+    padding: 12px;
+}
+.card2 .card h1{
+    font-size: 27px;
+    padding: 8px;
+}
+.card2 .card p{
+    padding-left: 15px;
+    font-size: 18px;
+}
+.card2 .card button{
+    height: 40px;
+    width: 115px;
+    background-color: #21B573;
+    color: white;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+/* icons starts here  */
+.card2 .card .icons img{
+    height: 45px;
+    width: 45px;
+    padding-left: 5px;
+}
+.card2 .card .icons{
+    margin-top: 10px;
+}
+.card2 .card .icons span{
+    font-size: 14px;
+}
+/* card2 ends here  */
+/* testimonial starts here  */
+.about .about-text1 h1{
+    font-size: 2.5rem;
+    color: #413960;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.about .about-img img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.about .about-full{
+    margin-left: 60px;
+}
+.about .about-img p{
+    padding-top: 38px;
+    padding-left: 17px;
+    padding-right: 40px;
+}
+/* testimonial ends here  */
+/* footer starts here  */
+.footer{
+    background-color: #282531;
+    width: 100%;
+    margin-top: 20px;
+}
+.footer .row{
+    padding-top: 60px;
+}
+.footer span p{
+    color: white;
+}
+.footer span h1{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.footer ul li a{
+    color: white;
+    transition: all 0.1s ease;
+}
+.footer ul li a:hover{
+    color: #21B573;
+}
+.footer .footer-text p{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
